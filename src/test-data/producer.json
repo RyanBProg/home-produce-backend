@@ -1,0 +1,40 @@
+{
+  "id": "iuenc893948nfpeo",
+  "name": "Sunny Acres Farm",
+  "description": "Family-run acreage specialising in seasonal vegetables, pasture-raised eggs, and small-batch herb bundles grown with closed-loop composting.",
+  "highlight": "Crisp greens harvested before sunrise with zero synthetic sprays.",
+  "produce": ["vegetables", "herbs", "eggs"],
+  "items": [
+    "Hydroponic butter lettuce heads",
+    "Heritage rainbow carrots",
+    "Pasture-raised dozen eggs",
+    "Lemon balm and basil bundle"
+  ],
+  "images": [
+    "https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&w=900&q=80"
+  ],
+  "location": {
+    "city": "Perth",
+    "state": "WA",
+    "neighborhood": "Mount Lawley",
+    "lat": -31.9369,
+    "lng": 115.8719
+  },
+  "schedule": [
+    {
+      "day": "Wednesday",
+      "time": "3–7pm",
+      "place": "Inglewood Night Markets"
+    },
+    { "day": "Saturday", "time": "8am–12pm", "place": "Subi Farmers Market" }
+  ],
+  "contact": {
+    "phone": "(08) 6112 3401",
+    "website": "https://example.com/sunny-acres"
+  },
+  "offersDelivery": true,
+  "organic": true,
+  "veganFriendly": true,
+  "bulkDiscounts": false,
+  "approved": false
+}
