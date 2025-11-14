@@ -1,7 +1,18 @@
 import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 
+export type ProducerScheduleDays =
+  | 'Monday'
+  | 'Tuesday'
+  | 'Wednesday'
+  | 'Thursday'
+  | 'Friday'
+  | 'Saturday'
+  | 'Sunday';
+
+export type ApprovalStatus = 'pending' | 'approved' | 'rejected';
+
 export interface ProducerSchedule {
-  day: 'mon' | 'tue' | 'wed' | 'thu' | 'fri' | 'sat' | 'sun';
+  day: ProducerScheduleDays;
   open: string;
   closed: string;
 }
@@ -58,5 +69,5 @@ export class ProducerEntity {
     enum: ['pending', 'approved', 'rejected'],
     default: 'pending',
   })
-  approvalStatus: 'pending' | 'approved' | 'rejected';
+  approvalStatus: ApprovalStatus;
 }

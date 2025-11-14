@@ -1,0 +1,260 @@
+[
+  {
+    "name": "Sunny Acres Farm",
+    "highlight": "Crisp greens harvested before sunrise with zero synthetic sprays.",
+    "description": "Family-run acreage specialising in seasonal vegetables, pasture-raised eggs, and small-batch herb bundles grown with closed-loop composting.",
+    "categories": ["vegetables", "herbs", "eggs"],
+    "tags": [
+      "Hydroponic butter lettuce heads",
+      "Heritage rainbow carrots",
+      "Pasture-raised dozen eggs",
+      "Lemon balm and basil bundle",
+      "Inglewood Night Markets",
+      "Subi Farmers Market"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&w=900&q=80"
+    ],
+    "lat": -31.9369,
+    "lng": 115.8719,
+    "suburb": "Mount Lawley",
+    "state": "WA",
+    "schedule": [
+      { "day": "Wednesday", "open": "15:00", "closed": "19:00" },
+      { "day": "Saturday", "open": "08:00", "closed": "12:00" }
+    ],
+    "phone": "(08) 6112 3401",
+    "website": "https://example.com/sunny-acres",
+    "offersDelivery": true,
+    "approvalStatus": "approved"
+  },
+  {
+    "name": "Riverside Orchards",
+    "highlight": "Seasonal pear, plum, and citrus ciders cold-pressed weekly.",
+    "description": "Heirloom stone fruits, citrus, and pressed juices grown on the northern banks of the Swan River with regenerative water practices.",
+    "categories": ["fruit", "beverages", "pantry"],
+    "tags": [
+      "Pink lady apples (2kg box)",
+      "Blood orange marmalade",
+      "Sparkling pear cider four-pack",
+      "Citrus fruit salad bundle",
+      "South Beach Sunset Markets",
+      "Growers' Green Farmers Market"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1471193945509-9ad0617afabf?auto=format&fit=crop&w=900&q=80"
+    ],
+    "lat": -32.0569,
+    "lng": 115.7439,
+    "suburb": "Fremantle",
+    "state": "WA",
+    "schedule": [
+      { "day": "Friday", "open": "16:00", "closed": "20:00" },
+      { "day": "Sunday", "open": "09:00", "closed": "13:00" }
+    ],
+    "phone": "(08) 6221 4478",
+    "website": "https://example.com/riverside-orchards",
+    "offersDelivery": false,
+    "approvalStatus": "pending"
+  },
+  {
+    "name": "Forest Grove Dairy Collective",
+    "highlight": "Limited release smoked chèvre rolled in local native herbs.",
+    "description": "Cooperative of small dairy holders in the Swan Valley crafting cheeses, yoghurts, and cultured butters from grass-fed cows and goats.",
+    "categories": ["dairy"],
+    "tags": [
+      "Aged farmhouse cheddar wedge",
+      "Smoked chèvre round",
+      "Cultured butter twin pack",
+      "Goat milk yoghurt (500ml)",
+      "Guildford Twilight Market",
+      "Swan Settlers Market"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1514996937319-344454492b37?auto=format&fit=crop&w=900&q=80"
+    ],
+    "lat": -31.8396,
+    "lng": 116.02,
+    "suburb": "Swan Valley",
+    "state": "WA",
+    "schedule": [
+      { "day": "Thursday", "open": "16:00", "closed": "20:00" },
+      { "day": "Saturday", "open": "09:00", "closed": "14:00" }
+    ],
+    "phone": "(08) 6186 9042",
+    "offersDelivery": false,
+    "approvalStatus": "approved"
+  },
+  {
+    "name": "Harborview Apiary Co-op",
+    "highlight": "Small-batch single-hive extractions filtered only once for maximum aroma.",
+    "description": "Collective of rooftop and bushland beekeepers bottling raw honey varietals, pollen, and beeswax pantry goods sourced across the coastal plain.",
+    "categories": ["honey", "pantry", "condiments"],
+    "tags": [
+      "Manuka blossom honey (450g)",
+      "Raw pollen sachets",
+      "Karri forest propolis spray",
+      "Beeswax food wrap trio",
+      "Perth City Farm Markets",
+      "Northbridge Collective Laneway Pop-up"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=900&q=80"
+    ],
+    "lat": -31.9483,
+    "lng": 115.8593,
+    "suburb": "Northbridge",
+    "state": "WA",
+    "schedule": [
+      { "day": "Saturday", "open": "08:00", "closed": "13:00" },
+      { "day": "Tuesday", "open": "16:00", "closed": "19:00" }
+    ],
+    "phone": "(08) 6115 9981",
+    "website": "https://example.com/harborview-apiary",
+    "offersDelivery": true,
+    "approvalStatus": "pending"
+  },
+  {
+    "name": "Kaya Native Botanicals",
+    "highlight": "Native river mint tonics and edible flower bundles harvested to order.",
+    "description": "Family duo cultivating bushfood herbs, native blooms, and medicinal leaves with low-water wicking beds and seed-saving programs.",
+    "categories": ["herbs", "flowers", "bushfoods"],
+    "tags": [
+      "River mint bundle",
+      "Geraldton wax flower stems",
+      "Lemon myrtle tonic",
+      "Finger lime powder",
+      "South Beach Sunset Markets",
+      "Walyalup Koort Pop-up"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1459664018906-085c36f472af?auto=format&fit=crop&w=900&q=80"
+    ],
+    "lat": -32.0692,
+    "lng": 115.7571,
+    "suburb": "South Fremantle",
+    "state": "WA",
+    "schedule": [
+      { "day": "Thursday", "open": "10:00", "closed": "16:00" },
+      { "day": "Sunday", "open": "09:00", "closed": "12:00" }
+    ],
+    "phone": "(08) 6201 5550",
+    "website": "https://example.com/kaya-botanicals",
+    "offersDelivery": false,
+    "approvalStatus": "approved"
+  },
+  {
+    "name": "Redbank Grain & Pulse Collective",
+    "highlight": "Fresh-milled khorasan flour and slow-soaked chickpeas packed weekly.",
+    "description": "Fourth-generation grain growers rotating regenerative wheat, spelt, lupins, and chickpeas with on-farm milling for local bakers.",
+    "categories": ["grains", "legumes", "pantry"],
+    "tags": [
+      "Khorasan flour (1kg)",
+      "Stoneground rye grits",
+      "Soaked chickpeas (ready-to-cook)",
+      "Lupin crumble",
+      "Midland Farmers Market",
+      "Guildford Pantry Exchange"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=900&q=80"
+    ],
+    "lat": -31.8892,
+    "lng": 116.0075,
+    "suburb": "Midland",
+    "state": "WA",
+    "schedule": [
+      { "day": "Wednesday", "open": "07:00", "closed": "13:00" },
+      { "day": "Saturday", "open": "11:00", "closed": "15:00" }
+    ],
+    "phone": "(08) 6299 4412",
+    "offersDelivery": true,
+    "approvalStatus": "approved"
+  },
+  {
+    "name": "Coastal Catch Smokehouse",
+    "highlight": "Line-caught fish brined with sea salt and lemon myrtle, smoked over paperbark.",
+    "description": "Boutique seafood curers working with small-boat crews to deliver chilled fillets, smoked portions, and bone broths within 24 hours.",
+    "categories": ["seafood", "prepared foods"],
+    "tags": [
+      "Smoked pink snapper portions",
+      "Lemon myrtle fish jerky",
+      "Seafood bone broth jars",
+      "Native herb salt rub",
+      "Cottesloe Foreshore Market",
+      "Scarborough Sunset Markets"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80"
+    ],
+    "lat": -31.9954,
+    "lng": 115.751,
+    "suburb": "Cottesloe",
+    "state": "WA",
+    "schedule": [
+      { "day": "Friday", "open": "11:00", "closed": "18:00" },
+      { "day": "Sunday", "open": "08:00", "closed": "12:00" }
+    ],
+    "phone": "(08) 6150 8832",
+    "website": "https://example.com/coastal-catch",
+    "offersDelivery": false,
+    "approvalStatus": "approved"
+  },
+  {
+    "name": "Verdant Ferments Lab",
+    "highlight": "Seasonal kefir and shrub concentrates fermented in clay crocks.",
+    "description": "Micro-fermentary specialising in sparkling kefir, kombucha, and fruit shrub elixirs with native botanicals and low sugar profiles.",
+    "categories": ["beverages", "pantry"],
+    "tags": [
+      "Quandong shrub concentrate",
+      "Ginger wattleseed kombucha",
+      "Vanilla bean kefir",
+      "Fermentation starter kits",
+      "Leederville Community Market",
+      "City Beach Night Bites"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1510626176961-4b57d4fbad03?auto=format&fit=crop&w=900&q=80"
+    ],
+    "lat": -31.9386,
+    "lng": 115.8408,
+    "suburb": "Leederville",
+    "state": "WA",
+    "schedule": [
+      { "day": "Monday", "open": "12:00", "closed": "18:00" },
+      { "day": "Thursday", "open": "09:00", "closed": "13:00" }
+    ],
+    "phone": "(08) 6262 7700",
+    "website": "https://example.com/verdant-ferments",
+    "offersDelivery": true,
+    "approvalStatus": "approved"
+  },
+  {
+    "name": "Little Brook Mushroom Works",
+    "highlight": "Log-grown shiitake clusters cut and packed the morning of delivery.",
+    "description": "Indoor mushroom farm using waste steam heat to grow shiitake, lion's mane, and oyster varieties with weekly CSA drop-offs.",
+    "categories": ["mushrooms", "vegetables"],
+    "tags": [
+      "Shiitake cluster box",
+      "Blue oyster grow kit",
+      "Lion's mane crumbles",
+      "Mushroom seasoning salt",
+      "Bayswater Growers Market",
+      "Maylands Laneway Pantry"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1448907503123-67254d59ca4f?auto=format&fit=crop&w=900&q=80"
+    ],
+    "lat": -31.9104,
+    "lng": 115.9087,
+    "suburb": "Bayswater",
+    "state": "WA",
+    "schedule": [
+      { "day": "Tuesday", "open": "07:00", "closed": "12:00" },
+      { "day": "Saturday", "open": "07:00", "closed": "11:00" }
+    ],
+    "phone": "(08) 6184 3229",
+    "offersDelivery": true,
+    "approvalStatus": "approved"
+  }
+]

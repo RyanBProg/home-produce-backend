@@ -1,7 +1,10 @@
 import { Module } from '@nestjs/common';
-import { ConfigService } from '@nestjs/config';
+import { SeedService } from './seed.service';
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { ConfigService } from '@nestjs/config';
+import { ConfigModule } from '../config/config.module';
 import { EnvVars } from '../config/env.schema';
+import { ProducerEntity } from '../producers/producers.entity';
 
 @Module({
   imports: [
@@ -17,11 +20,15 @@ import { EnvVars } from '../config/env.schema';
         return {
           type: 'postgres',
           url,
+          entities: [ProducerEntity],
           synchronize: !isProd,
           logging: !isProd,
         };
       },
     }),
+    ConfigModule,
+    TypeOrmModule.forFeature([ProducerEntity]),
   ],
+  providers: [SeedService],
 })
-export class DatabaseModule {}
+export class SeedModule {}
