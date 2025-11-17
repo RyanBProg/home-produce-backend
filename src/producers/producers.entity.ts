@@ -1,21 +1,5 @@
 import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
-
-export type ProducerScheduleDays =
-  | 'Monday'
-  | 'Tuesday'
-  | 'Wednesday'
-  | 'Thursday'
-  | 'Friday'
-  | 'Saturday'
-  | 'Sunday';
-
-export type ApprovalStatus = 'pending' | 'approved' | 'rejected';
-
-export interface ProducerSchedule {
-  day: ProducerScheduleDays;
-  open: string;
-  closed: string;
-}
+import type { ApprovalStatus, ProducerSchedule } from './domain/producer';
 
 @Entity({ name: 'producers' })
 export class ProducerEntity {
