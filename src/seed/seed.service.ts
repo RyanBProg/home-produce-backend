@@ -6,7 +6,7 @@ import seedDataJson from './seed-data.json';
 import {
   ProducerScheduleDays,
   ApprovalStatus,
-} from '../producers/producers.entity';
+} from '../producers/domain/producer';
 
 @Injectable()
 export class SeedService {
