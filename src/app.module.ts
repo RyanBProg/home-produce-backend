@@ -4,6 +4,8 @@ import { ConfigModule } from './config/config.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ConfigService } from '@nestjs/config';
 import { EnvVars } from './config/env.schema';
+import { AuthModule } from './auth/auth.module';
+import { AccountsModule } from './accounts/interface/accounts.module';
 
 @Module({
   imports: [
@@ -27,6 +29,8 @@ import { EnvVars } from './config/env.schema';
     }),
     ProducersModule,
     ConfigModule,
+    AuthModule,
+    AccountsModule,
   ],
   controllers: [],
   providers: [],
